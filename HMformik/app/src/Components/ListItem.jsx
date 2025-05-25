@@ -8,7 +8,7 @@ function ListItem({task, handleDelete}) {
         <div>
             <li className='todo-item'>
                 <span className="todo-item__description">{task.name}</span>
-                <button id={task.id} onClick={handleDelete} className="todo-item__delete">Видалити</button>
+                <button id={task.id} onClick={handleDelete} className="todo-item__delete">Delete</button>
             </li>
         </div>
     );
